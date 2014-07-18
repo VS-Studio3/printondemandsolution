@@ -1,0 +1,59 @@
+/**
+ * JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+ * @category   JBZoo
+ * @author     smet.denis <admin@joomla-book.ru>
+ * @copyright  Copyright (c) 2009-2012, Joomla-book.ru
+ * @license    http://joomla-book.ru/info/disclaimer
+ * @link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+ */
+
+.jbzoo-app-product .subcategory-title {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.jbzoo-app-product .element-socialbookmarks {
+    margin-top: 1em;
+}
+
+.jbzoo-app-product .item-anons {
+    margin-bottom: 1em;
+}
+
+.jbzoo-app-product .item-meta {
+    margin-bottom: 1em;
+}
+
+.jbzoo-app-product .item-body {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.jbzoo-app-product .element-jbblock {
+    margin-bottom: 1em;
+}
+
+.jbzoo-app-product .jbzoo-item-related .element-jbrelatedauto {
+    margin-top: 2em;
+}
+
+.jbzoo-app-product .jbzoo-item-related .item-title {
+    margin-bottom: 0.5em;
+}
+
+.jbzoo-app-product .related-items .rborder {
+    min-height: 310px;
+}
+
+.jbzoo-app-product .product-props {
+    float: right;
+    width: 54%;
+}
+
+.jbzoo.jbzoo-app-product .items .column {
+    padding: 0;
+}
+
+.wk-slideshow .slides > li {
+    text-align: center;
+}

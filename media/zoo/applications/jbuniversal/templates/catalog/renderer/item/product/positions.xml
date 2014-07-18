@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderer>
+    <positions layout="feed">
+        <position name="description">Description</position>
+    </positions>
+
+    <positions layout="full">
+        <position name="banner-title">banner-title</position>
+
+        <position name="banner-image">banner-image</position>
+		
+        <position name="text-above-tabs">text-above-tabs</position>
+		
+        <position name="text-tab1">text-tab1</position>
+        <position name="text-tab2">text-tab2</position>
+        <position name="text-tab3">text-tab3</position>
+        <position name="text-tab4">text-tab4</position>
+		
+        <position name="text-above-products">text-above-products</position>
+        <position name="products">products</position>
+
+        <position name="reviews">reviews</position>
+		
+    </positions>
+
+    <positions layout="teaser">
+        <position name="title">Title</position>
+        <position name="subtitle">Subtitle</position>
+        <position name="price">Price</position>
+        <position name="properties">Properties</position>
+        <position name="image">Image</position>
+        <position name="rating">Rating</position>
+        <position name="links">Links</position>
+    </positions>
+
+    <positions layout="related">
+        <position name="image">Image</position>
+        <position name="rating">Rating</position>
+        <position name="title">Title</position>
+        <position name="properties">Properties</position>
+        <position name="links">Links</position>
+    </positions>
+
+    <positions layout="subcategory_item">
+        <position name="title">Title</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="meta">Meta</position>
+    </positions>
+
+    <positions layout="submission">
+        <position name="content">Content</position>
+        <position name="media">Media</position>
+        <position name="meta">Meta</position>
+        <position name="administration">Administration</position>
+    </positions>
+
+    <positions layout="compare">
+        <position name="fields">Fields</position>
+    </positions>
+
+    <positions layout="favorite">
+        <position name="title">Title</position>
+        <position name="image">Image</position>
+        <position name="properties">Properties</position>
+        <position name="text">Text</position>
+        <position name="meta">Meta</position>
+    </positions>
+
+</renderer>

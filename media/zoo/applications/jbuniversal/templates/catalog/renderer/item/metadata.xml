@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+    category   JBZoo
+    author     smet.denis <admin@joomla-book.ru>
+    copyright  Copyright (c) 2009-2012, Joomla-book.ru
+    license    http://joomla-book.ru/info/disclaimer
+    link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+-->
+<metadata>
+    <layout name="full">
+        <name>Full</name>
+        <description>An item is rendered with the full layout in the item view.</description>
+    </layout>
+
+    <layout name="teaser" type="related">
+        <name>Teaser</name>
+        <description>An item is rendered with the teaser layout in the frontpage, category, alphaindex and tag view.
+        </description>
+    </layout>
+
+    <layout name="compare">
+        <name>Compare</name>
+        <description>Compare item layout</description>
+    </layout>
+
+    <layout name="related" type="related">
+        <name>Related</name>
+        <description>Related items layout</description>
+    </layout>
+
+    <layout name="subcategory_item" type="related">
+        <name>Subcategory item</name>
+        <description>Subcategory item layout</description>
+    </layout>
+
+    <layout name="feed">
+        <name>Feed</name>
+        <description>An item is rendered with the feed layout for all kinds of feeds like RSS and Atom.</description>
+    </layout>
+
+    <layout name="submission" type="submission">
+        <name>Submission</name>
+        <description>An item is rendered with the submission layout in the submission view.</description>
+    </layout>
+
+    <layout name="favorite">
+        <name>Favorite</name>
+        <description>Layout for element favorite</description>
+    </layout>
+
+</metadata>

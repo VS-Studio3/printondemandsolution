@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+    category   JBZoo
+    author     smet.denis <admin@joomla-book.ru>
+    copyright  Copyright (c) 2009-2012, Joomla-book.ru
+    license    http://joomla-book.ru/info/disclaimer
+    link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+-->
+<element type="jbrelatedauto" group="JBZoo">
+    <name>JBZoo Related items (auto)</name>
+    <author>Joomla-book.ru</author>
+    <creationDate>2012</creationDate>
+    <copyright>Copyright (C) Joomla-book.ru</copyright>
+    <authorEmail>admin@joomla-book.ru</authorEmail>
+    <authorUrl>http://joomla-book.ru</authorUrl>
+    <version>2.0</version>
+
+    <params />
+
+    <params group="render">
+
+        <param name="layout" type="zoolayout" default="" label="JBZOO_RELATEDAUTO_LAYOUT"
+               description="JBZOO_RELATEDAUTO_LAYOUT_DESC"
+               constraint="related"/>
+
+        <param name="link_to_item" type="radio" default="0" label="Link Item Name"
+               description="Wrap name in link to item">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </param>
+
+        <param name="columns" type="radio" default="1" label="JBZOO_RELATEDAUTO_COLUMNS"
+               description="JBZOO_RELATEDAUTO_COLUMNS_DESC">
+            <option value="1">JBZOO_NUMBERS_1</option>
+            <option value="2">JBZOO_NUMBERS_2</option>
+            <option value="3">JBZOO_NUMBERS_3</option>
+            <option value="4">JBZOO_NUMBERS_4</option>
+        </param>
+
+        <param name="count" type="list" default="4" label="JBZOO_RELATEDAUTO_COUNT"
+               description="JBZOO_RELATEDAUTO_COUNT_DESC">
+            <option value="1">JBZOO_NUMBERS_1</option>
+            <option value="2">JBZOO_NUMBERS_2</option>
+            <option value="3">JBZOO_NUMBERS_3</option>
+            <option value="4">JBZOO_NUMBERS_4</option>
+            <option value="5">JBZOO_NUMBERS_5</option>
+            <option value="6">JBZOO_NUMBERS_6</option>
+            <option value="7">JBZOO_NUMBERS_7</option>
+            <option value="8">JBZOO_NUMBERS_8</option>
+            <option value="9">JBZOO_NUMBERS_9</option>
+            <option value="10">JBZOO_NUMBERS_10</option>
+            <option value="11">JBZOO_NUMBERS_11</option>
+            <option value="12">JBZOO_NUMBERS_12</option>
+            <option value="13">JBZOO_NUMBERS_13</option>
+            <option value="14">JBZOO_NUMBERS_14</option>
+            <option value="15">JBZOO_NUMBERS_15</option>
+            <option value="16">JBZOO_NUMBERS_16</option>
+            <option value="17">JBZOO_NUMBERS_17</option>
+            <option value="18">JBZOO_NUMBERS_18</option>
+            <option value="19">JBZOO_NUMBERS_19</option>
+            <option value="20">JBZOO_NUMBERS_20</option>
+            <option value="20">JBZOO_NUMBERS_25</option>
+            <option value="30">JBZOO_NUMBERS_30</option>
+            <option value="40">JBZOO_NUMBERS_40</option>
+            <option value="50">JBZOO_NUMBERS_50</option>
+            <option value="60">JBZOO_NUMBERS_60</option>
+            <option value="70">JBZOO_NUMBERS_70</option>
+            <option value="80">JBZOO_NUMBERS_80</option>
+            <option value="80">JBZOO_NUMBERS_90</option>
+            <option value="100">JBZOO_NUMBERS_100</option>
+        </param>
+
+        <param name="relevant" type="list" default="5" label="JBZOO_RELATEDAUTO_RELEVANT"
+               description="JBZOO_RELATEDAUTO_RELEVANT_DESC">
+            <option value="0">JBZOO_RELATEDAUTO_RELEVANT_NOLIMIT</option>
+            <option value="1">JBZOO_NUMBERS_1</option>
+            <option value="2">JBZOO_NUMBERS_2</option>
+            <option value="3">JBZOO_NUMBERS_3</option>
+            <option value="4">JBZOO_NUMBERS_4</option>
+            <option value="5">JBZOO_NUMBERS_5</option>
+            <option value="6">JBZOO_NUMBERS_6</option>
+            <option value="7">JBZOO_NUMBERS_7</option>
+            <option value="8">JBZOO_NUMBERS_8</option>
+            <option value="9">JBZOO_NUMBERS_9</option>
+            <option value="10">JBZOO_NUMBERS_10</option>
+            <option value="11">JBZOO_NUMBERS_11</option>
+            <option value="12">JBZOO_NUMBERS_12</option>
+            <option value="13">JBZOO_NUMBERS_13</option>
+            <option value="14">JBZOO_NUMBERS_14</option>
+            <option value="15">JBZOO_NUMBERS_15</option>
+            <option value="16">JBZOO_NUMBERS_16</option>
+            <option value="17">JBZOO_NUMBERS_17</option>
+            <option value="18">JBZOO_NUMBERS_18</option>
+            <option value="19">JBZOO_NUMBERS_19</option>
+            <option value="20">JBZOO_NUMBERS_20</option>
+            <option value="21">JBZOO_NUMBERS_21</option>
+            <option value="22">JBZOO_NUMBERS_22</option>
+            <option value="23">JBZOO_NUMBERS_23</option>
+            <option value="24">JBZOO_NUMBERS_24</option>
+            <option value="25">JBZOO_NUMBERS_25</option>
+            <option value="26">JBZOO_NUMBERS_26</option>
+            <option value="27">JBZOO_NUMBERS_27</option>
+            <option value="28">JBZOO_NUMBERS_28</option>
+            <option value="29">JBZOO_NUMBERS_29</option>
+            <option value="30">JBZOO_NUMBERS_30</option>
+        </param>
+
+        <param name="search-method" type="list" default="2" label="JBZOO_RELATEDAUTO_SEARCHMETHOD">
+            <option value="1">JBZOO_RELATEDAUTO_SEARCHMETHOD_EXACTLY</option>
+            <option value="2">JBZOO_RELATEDAUTO_SEARCHMETHOD_INEXACT</option>
+            <option value="3">JBZOO_RELATEDAUTO_SEARCHMETHOD_FULLTEXT</option>
+        </param>
+
+        <param name="separated_by" type="zoolist" default="Space" label="Separated by"
+               description="CHOOSE_SEPARATOR_REPEATED_ELEMENTS">
+            <option name="Space"><![CDATA[separator=[ ]]]></option>
+            <option name="Comma"><![CDATA[separator=[, ]]]></option>
+            <option name="Hyphen"><![CDATA[separator=[ - ]]]></option>
+            <option name="Pipe"><![CDATA[separator=[ | ]]]></option>
+            <option name="Break"><![CDATA[separator=[<br />]]]></option>
+            <option name="Span"><![CDATA[tag=[<span>%s</span>]]]></option>
+            <option name="Paragraph"><![CDATA[tag=[<p>%s</p>]]]></option>
+            <option name="Div"><![CDATA[tag=[<div>%s</div>]]]></option>
+            <option name="List Item"><![CDATA[tag=[<li>%s</li>]]]></option>
+            <option name="Unordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ul>%s</ul>]]]></option>
+            <option name="Ordered List"><![CDATA[tag=[<li>%s</li>] enclosing_tag=[<ol>%s</ol>]]]></option>
+            <option name="Warp Item"><![CDATA[tag=[<article class="item">%s</article>]]]></option>
+        </param>
+    </params>
+
+</element>

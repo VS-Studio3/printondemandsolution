@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+    category   JBZoo
+    author     smet.denis <admin@joomla-book.ru>
+    copyright  Copyright (c) 2009-2012, Joomla-book.ru
+    license    http://joomla-book.ru/info/disclaimer
+    link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+-->
+<element type="jbcompare" group="JBZoo">
+    <name>JBZoo Compare</name>
+    <author>Joomla-book.ru</author>
+    <creationDate>2012</creationDate>
+    <copyright>Copyright (C) Joomla-book.ru</copyright>
+    <authorEmail>admin@joomla-book.ru</authorEmail>
+    <authorUrl>http://joomla-book.ru</authorUrl>
+    <version>1.0</version>
+    <description>JBZoo Compare</description>
+
+    <params>
+        <param name="name" type="text" default="" label="Name" description="Name used in item editor"/>
+        <param name="description" type="text" default="" label="Description"
+               description="DESCRIPTION_TOOLTIP_ITEM_EDITOR"/>
+        <param name="menuitem" type="jbmenuitems" default="" label="JBZOO_COMPARE_MENUITEM" description="JBZOO_COMPARE_MENUITEM_DESC" />
+        <param name="limit" type="text" default="4" label="JBZOO_COMPARE_LIMIT" description="JBZOO_COMPARE_LIMIT_DESC" />
+    </params>
+
+    <params group="render">
+        <param name="showlabel" type="radio" default="0" label="Show Label" description="Show/Hide element label">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="altlabel" type="text" default="" label="Alternative Label" description="CUSTOM_LABEL"/>
+    </params>
+
+</element>

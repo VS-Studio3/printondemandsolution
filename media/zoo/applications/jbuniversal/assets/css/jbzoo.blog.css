@@ -1,0 +1,25 @@
+/**
+ * JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+ * @category   JBZoo
+ * @author     smet.denis <admin@joomla-book.ru>
+ * @copyright  Copyright (c) 2009-2012, Joomla-book.ru
+ * @license    http://joomla-book.ru/info/disclaimer
+ * @link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+ */
+
+.item-author-related {
+    border-top: 1px solid #ccc;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.item-author-related li,
+.item-author-related ul {
+    list-style: none !important;
+    margin-top: 0 !important;
+}
+
+.item-author-related .item-image {
+    margin-bottom: 70px !important;
+}

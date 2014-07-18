@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+    category   JBZoo
+    author     smet.denis <admin@joomla-book.ru>
+    copyright  Copyright (c) 2009-2012, Joomla-book.ru
+    license    http://joomla-book.ru/info/disclaimer
+    link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+-->
+<element type="jbfavorite" group="JBZoo">
+    <name>JBZoo Favorite</name>
+    <author>Joomla-Book.ru</author>
+    <creationDate>01 2012</creationDate>
+    <copyright>Copyright (C) Joomla-book.ru</copyright>
+    <authorEmail>admin@jomla-book.ru</authorEmail>
+    <authorUrl>http://joomla-book.ru</authorUrl>
+    <version>1.0</version>
+    <description>JBZoo favorite element</description>
+    <params>
+        <param name="menuitem" type="jbmenuitems" default="" label="JBZOO_COMPARE_MENUITEM" description="JBZOO_COMPARE_MENUITEM_DESC" />
+    </params>
+    <params group="render">
+    </params>
+</element>

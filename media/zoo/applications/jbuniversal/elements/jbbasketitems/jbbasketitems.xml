@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+    category   JBZoo
+    author     smet.denis <admin@joomla-book.ru>
+    copyright  Copyright (c) 2009-2012, Joomla-book.ru
+    license    http://joomla-book.ru/info/disclaimer
+    link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+-->
+<element type="jbbasketitems" group="JBZoo" orderable="true">
+    <name>JBZoo Basket Items</name>
+    <author>Joomla-book.ru</author>
+    <creationDate>2013.01</creationDate>
+    <copyright>Joomla-book.ru</copyright>
+    <authorEmail>admin@joomla-book.ru</authorEmail>
+    <authorUrl>http://joomla-book.ru</authorUrl>
+    <version>1.1</version>
+    <description>JBZoo Basket Items</description>
+    <params>
+    </params>
+    <params group="render">
+        <param name="template" type="list" default="default" label="JBZOO_JBBASKETITEMS_TEMPLATE"
+               description="JBZOO_JBBASKETITEMS_TEMPLATE_DESC">
+            <option value="default">JBZOO_JBBASKETITEMS_DEFAULT</option>
+            <option value="table">JBZOO_JBBASKETITEMS_TABLE</option>
+            <option value="totalprice">JBZOO_JBBASKETITEMS_TOTALPRICE</option>
+            <option value="method">JBZOO_JBBASKETITEMS_METHOD</option>
+            <option value="status">JBZOO_JBBASKETITEMS_STATUS</option>
+            <option value="paymentlink">JBZOO_JBBASKETITEMS_PAYMENTLINK</option>
+        </param>
+        <param name="basket-menuitem" type="jbmenuitems" default="" label="JBZOO_CART_MENUITEM"
+               description="JBZOO_CART_MENUITEM_DESC"/>
+    </params>
+</element>

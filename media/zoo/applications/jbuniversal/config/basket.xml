@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+    category   JBZoo
+    author     smet.denis <admin@joomla-book.ru>
+    copyright  Copyright (c) 2009-2012, Joomla-book.ru
+    license    http://joomla-book.ru/info/disclaimer
+    link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+-->
+<config>
+    <name>JBZOO_CART_CONFIG</name>
+    <params>
+
+        <param name="enable" type="jbbool" default="" label="JBZOO_CART_ENABLE" description="JBZOO_CART_ENABLE_DESC"/>
+
+        <param name="auth" type="jbbool" default="0" label="JBZOO_CART_AUTH_ONLY"
+               description="JBZOO_CART_AUTH_ONLY_DESC"/>
+
+        <param name="submission-id" type="jbsubmissionlist" default="order:item.order.order-email"
+               label="JBZOO_CART_SUBMISSION" description="JBZOO_CART_SUBMISSION_DESC"/>
+
+        <param name="type-layout" type="jbformlayoutlist" default="order:item.order.order"
+               label="JBZOO_CART_FORM_LAYOUT" description="JBZOO_CART_FORM_LAYOUT_DESC"/>
+
+        <param name="currency" type="jbcurrency" default="RUR" label="JBZOO_CURRENCY"
+               description="JBZOO_CURRENCY_DESC"/>
+
+        <param name="admin-email" type="text" default="" label="JBZOO_CART_ADMIN_EMAIL"
+               description="JBZOO_CART_ADMIN_EMAIL_DESC"/>
+
+        <param name="email-admin-layout" type="jbemaillayoutlist" default="item.order.orderemail"
+               label="JBZOO_CART_ADMIN_EMAIL_LAYOUT" description="JBZOO_CART_ADMIN_EMAIL_LAYOUT_DESC"/>
+
+        <param name="email-user-layout" type="jbemaillayoutlist" default="item.order.orderemail"
+               label="JBZOO_CART_USER_EMAIL_LAYOUT" description="JBZOO_CART_USER_EMAIL_LAYOUT_DESC"/>
+
+        <param name="element-image" type="jbelementlist" default="" label="JBZOO_CART_IMAGE_ELEMENT"
+               description="JBZOO_CART_IMAGE_ELEMENT_DESC" types="jbimage,image"/>
+
+        <!-- Payment system -->
+        <param name="@spacer"
+               type="spacer"
+               default="JBZOO_PAYMENT_CONFIG"/>
+
+        <param name="nopaid-order" type="jbbool" default="0" label="JBZOO_CART_NOPAID"
+               description="JBZOO_CART_NOPAID_DESC"/>
+
+        <param name="jbpaymentlinks" type="jbpaymentlinks" default="" label="JBZOO_PAYMENT_LINK"
+               description="JBZOO_PAYMENT_LINK_DESC"/>
+
+        <param name="payment-enabled" type="jbbool" default="0" label="JBZOO_PAYMENT_ENABLED"
+               description="JBZOO_PAYMENT_ENABLED_DESC"/>
+
+        <!-- Robox -->
+        <param name="@spacer"
+               type="spacer"
+               default="JBZOO_ROBOX_CONFIG_TITLE"/>
+
+        <param name="robox-enabled" type="jbbool" default="0" label="JBZOO_ROBOX_ENABLED"
+               description="JBZOO_ROBOX_ENABLED_DESC"/>
+
+        <param name="robox-debug" type="jbbool" default="0" label="JBZOO_ROBOX_DEBUG"
+               description="JBZOO_ROBOX_DEBUG_DESC"/>
+
+        <param name="robox-login" type="text" default="" label="JBZOO_ROBOX_LOGIN"
+               description="JBZOO_ROBOX_LOGIN_DESC"/>
+
+        <param name="robox-password1" type="text" default="" label="JBZOO_ROBOX_PASSWORD_1"
+               description="JBZOO_ROBOX_PASSWORD_1_DESC"/>
+
+        <param name="robox-password2" type="text" default="" label="JBZOO_ROBOX_PASSWORD_2"
+               description="JBZOO_ROBOX_PASSWORD_2_DESC"/>
+
+        <!-- IKassa -->
+        <param name="@spacer"
+               type="spacer"
+               default="JBZOO_IKASSA_CONFIG_TITLE"/>
+
+        <param name="ikassa-enabled" type="jbbool" default="0" label="JBZOO_IKASSA_ENABLED"
+               description="JBZOO_IKASSA_ENABLED_DESC"/>
+
+        <param name="ikassa-shopid" type="text" default="" label="JBZOO_IKASSA_SHOPID"
+               description="JBZOO_IKASSA_SHOPID_DESC"/>
+
+        <param name="ikassa-key" type="text" default="" label="JBZOO_IKASSA_KEY" description="JBZOO_IKASSA_KEY_DESC"/>
+
+    </params>
+</config>

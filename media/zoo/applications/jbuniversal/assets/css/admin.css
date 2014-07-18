@@ -1,0 +1,101 @@
+/**
+ * JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+ * @category   JBZoo
+ * @author     smet.denis <admin@joomla-book.ru>
+ * @copyright  Copyright (c) 2009-2012, Joomla-book.ru
+ * @license    http://joomla-book.ru/info/disclaimer
+ * @link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+ */
+
+.icon-32-licence {
+    background-image: url('../img/toolbar/32-licence.png');
+}
+
+.icon-32-stats {
+    background-image: url('../img/toolbar/32-stats.png');
+}
+
+.jbprice {
+    width: 200px !important;
+    max-width: 200px !important;
+    min-width: 200px !important;
+    margin-right: 12px !important;
+}
+
+.jbbasket-table {
+    border: 1px solid #ccc;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+.jbbasket-table td,
+.jbbasket-table th {
+    padding: 4px;
+}
+
+.jbbasket-table tbody td {
+    border: 1px solid #ccc;
+}
+
+/* JBImage Element */
+.creation-form .element-jbimage input.jbimage-select {
+    width: 284px !important;
+    padding-right: 25px;
+    vertical-align: top;
+}
+
+.creation-form .element-jbimage span.image-cancel {
+    margin: 5px 15px 0 -25px;
+    vertical-align: text-top;
+}
+
+.creation-form .element-jbimage button {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    padding: 0px 0px 2px 0px;
+    border: 1px solid #c8c8c8;
+    border-bottom-color: #aaaaaa;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #ebebeb;
+    background: -moz-linear-gradient(50% 0%, #ffffff, #ebebeb 70%);
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#ffffff), to(#ebebeb), color-stop(70%, #ebebeb));
+    font-size: 12px;
+    line-height: 24px;
+    color: #323232;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1.0);
+}
+
+.creation-form .element-jbimage button:hover {
+    border: 1px solid #c8c8c8;
+    border-top-color: #aaaaaa;
+    background: #e1e1e1;
+    background: -moz-linear-gradient(50% 0%, #e1e1e1, #f5f5f5 96%, #ffffff 96%);
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#e1e1e1), to(#ffffff), color-stop(90%, #f5f5f5));
+    text-shadow: 0px -1px 0px rgba(255, 255, 255, 1.0);
+    color: #404040;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.creation-form div.image-preview {
+    width: 408px;
+    height: 170px;
+    margin-top: 10px;
+    padding: 3px;
+    border: 1px solid #CCCCCC;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.creation-form div.image-preview img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.element-jbbasketitems .payment-system strong {
+    vertical-align: baseline!important;
+}

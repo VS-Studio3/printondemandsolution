@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<currency>
+    <config>
+        <load_from_service>0</load_from_service>
+        <service_url>http://www.cbr.ru/scripts/XML_daily.asp</service_url>
+    </config>
+
+    <formatlist>
+        <!--1 000 000.00 -->
+        <format_1 decimals="2" dec_point="." thousands_sep=" "/>
+
+        <!--1 000 000,00 -->
+        <format_2 decimals="2" dec_point="," thousands_sep=" "/>
+
+        <!--1000000.00 -->
+        <format_3 decimals="2" dec_point="." thousands_sep=""/>
+
+        <!--1000000,00 -->
+        <format_4 decimals="2" dec_point="," thousands_sep=""/>
+
+        <!--1 000 000 -->
+        <format_5 decimals="0" dec_point="" thousands_sep=" "/>
+
+        <!--1000000 -->
+        <format_6 decimals="0" dec_point="" thousands_sep=""/>
+
+        <!--1 000 000,00 -->
+        <default decimals="2" dec_point="," thousands_sep=" "/>
+    </formatlist>
+
+    <curencylist>
+        <rub value="1,0000"  nominal="1"     prefix=""  postfix=" руб."  format="2">Российский рубль</rub>
+        <uah value="38,4297" nominal="10"    prefix=""  postfix=" грн."  format="2">Украинских гривен</uah>
+        <usd value="31,3817" nominal="1"     prefix="$" postfix=""       format="1">Доллар США</usd>
+        <eur value="40,4918" nominal="1"     prefix=""  postfix="€"      format="1">Евро</eur>
+        <byr value="36,9631" nominal="10000" prefix=""  postfix=" руб."  format="2">Белорусских рублей</byr>
+
+        <aud value="32,5868" nominal="1"     prefix="$" postfix=""       format="1">Австралийский доллар</aud>
+        <azn value="40,0226" nominal="1"     prefix=""  postfix=" манат" format="1">Азербайджанский манат</azn>
+        <gbp value="50,4900" nominal="1"     prefix=""  postfix=" фунт"  format="1">Фунт стерлингов Соединенного королевства</gbp>
+        <amd value="77,2948" nominal="1000"  prefix=""  postfix=" драм." format="1">Армянских драмов</amd>
+        <bgn value="20,6853" nominal="1"     prefix=""  postfix=" Лев"   format="1">Болгарский лев</bgn>
+        <brl value="15,4514" nominal="1"     prefix=""  postfix=" реал." format="1">Бразильский реал</brl>
+        <huf value="14,3430" nominal="100"   prefix=""  postfix=" фор."  format="1">Венгерских форинтов</huf>
+        <dkk value="54,2354" nominal="10"    prefix=""  postfix=" крон"  format="1">Датских крон</dkk>
+        <inr value="58,4934" nominal="100"   prefix=""  postfix=" руп."  format="1">Индийских рупий</inr>
+        <kzt value="20,8067" nominal="100"   prefix=""  postfix=" тенг." format="1">Казахских тенге</kzt>
+        <cad value="31,4761" nominal="1"     prefix="$" postfix=""       format="1">Канадский доллар</cad>
+        <kgs value="66,5294" nominal="100"   prefix=""  postfix=" сом."  format="1">Киргизских сомов</kgs>
+        <cny value="50,2735" nominal="10"    prefix=""  postfix=" юан."  format="1">Китайских юаней</cny>
+        <lvl value="58,1035" nominal="1"     prefix=""  postfix=" лат"   format="1">Латвийский лат</lvl>
+        <ltl value="11,7227" nominal="1"     prefix=""  postfix=" лит"   format="1">Литовский лит</ltl>
+        <mdl value="25,4722" nominal="10"    prefix=""  postfix=" леев"  format="1">Молдавских леев</mdl>
+        <nok value="55,0103" nominal="10"    prefix=""  postfix=" крон"  format="1">Норвежских крон</nok>
+        <pln value="98,1537" nominal="10"    prefix=""  postfix=" злот." format="1">Польских злотых</pln>
+        <ron value="89,3302" nominal="10"    prefix=""  postfix=" леев"  format="1">Новых румынских леев</ron>
+        <xdr value="48,2930" nominal="1"     prefix=""  postfix=""       format="1">СДР (специальные права заимствования)</xdr>
+        <sgd value="25,6932" nominal="1"     prefix="$" postfix=""       format="1">Сингапурский доллар</sgd>
+        <tjs value="65,8712" nominal="10"    prefix=""  postfix=" сом."  format="1">Таджикских сомони</tjs>
+        <try value="17,5317" nominal="1"     prefix=""  postfix=" лир."  format="1">Турецкая лира</try>
+        <tmt value="11,0092" nominal="1"     prefix=""  postfix=" манат" format="1">Новый туркменский манат</tmt>
+        <uzs value="16,0421" nominal="1000"  prefix=""  postfix=" сум."  format="1">Узбекских сумов</uzs>
+        <czk value="16,0311" nominal="10"    prefix=""  postfix=" крон"  format="1">Чешских крон</czk>
+        <sek value="46,9280" nominal="10"    prefix=""  postfix=" крон"  format="1">Шведских крон</sek>
+        <chf value="33,5310" nominal="1"     prefix=""  postfix=" франк" format="1">Швейцарский франк</chf>
+        <zar value="36,2175" nominal="10"    prefix=""  postfix=" рэнд." format="1">Южноафриканских рэндов</zar>
+        <krw value="28,7668" nominal="1000"  prefix=""  postfix=" "      format="1">Вон Республики Корея</krw>
+        <jpy value="39,0733" nominal="100"   prefix=""  postfix=" иен"   format="1">Японских иен</jpy>
+    </curencylist>
+</currency>

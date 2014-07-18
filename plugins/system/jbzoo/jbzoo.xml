@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+    category   JBZoo
+    author     smet.denis <admin@joomla-book.ru>
+    copyright  Copyright (c) 2009-2012, Joomla-book.ru
+    license    http://joomla-book.ru/info/disclaimer
+    link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+-->
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - JBZoo (events)</name>
+    <author>Joomla-book.ru</author>
+    <creationDate>2013 01</creationDate>
+    <copyright>Joomla-book.ru</copyright>
+    <license>http://joomla-book.ru/info/disclaimer</license>
+    <assetsLicense>http://joomla-book.ru/info/disclaimer</assetsLicense>
+    <authorEmail>admin@joomla-book.ru</authorEmail>
+    <authorUrl>http://joomla-book.ru</authorUrl>
+    <description>Event plugin for JBZoo by Joomla-book.ru</description>
+    <version>1.6.0</version>
+
+    <files>
+        <filename plugin="jbzoo">jbzoo.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+</extension>

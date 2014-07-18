@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout name="full">
+        <name>Full</name>
+        <description>Layout for element page</description>
+    </layout>
+
+    <layout name="teaser" type="related">
+        <name>Teaser</name>
+        <description>Layout for element teaser</description>
+    </layout>
+
+    <layout name="compare">
+        <name>Compare</name>
+        <description>Compare item layout</description>
+    </layout>
+
+    <layout name="related" type="related">
+        <name>Related</name>
+        <description>Related items layout</description>
+    </layout>
+
+    <layout name="subcategory_item" type="related">
+        <name>Subcategory item</name>
+        <description>Subcategory item layout</description>
+    </layout>
+
+    <layout name="feed">
+        <name>Feed</name>
+        <description>Feed layout for all kinds of feeds like RSS and Atom</description>
+    </layout>
+
+    <layout name="filter">
+        <name>Filter</name>
+        <description>Layout of the element found</description>
+    </layout>
+
+    <layout name="submission" type="submission">
+        <name>Submission</name>
+        <description>An item is rendered with the submission layout in the submission view.</description>
+    </layout>
+
+    <layout name="favorite">
+        <name>Favorite</name>
+        <description>Layout for element favorite</description>
+    </layout>
+
+</metadata>

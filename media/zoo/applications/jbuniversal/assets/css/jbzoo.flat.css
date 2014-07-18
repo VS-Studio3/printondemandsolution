@@ -1,0 +1,130 @@
+/**
+ * JBZoo is universal CCK based Joomla! CMS and YooTheme Zoo component
+ * @category   JBZoo
+ * @author     smet.denis <admin@joomla-book.ru>
+ * @copyright  Copyright (c) 2009-2012, Joomla-book.ru
+ * @license    http://joomla-book.ru/info/disclaimer
+ * @link       http://joomla-book.ru/projects/jbzoo JBZoo project page
+ */
+
+.jbzoo-app-flat .photo-agent {
+    float: left;
+    margin-right: 10px;
+}
+
+#main .jbzoo-app-flat .conact-agent {
+    padding: 10px 10px 10px 25px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    width: 350px;
+}
+
+.jbzoo-app-flat caption {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+
+.jbzoo-app-flat table.tablesorter {
+    margin-top: 0;
+}
+
+.jbzoo-app-flat .tablesorter th {
+    background: #BDDFB3;
+}
+
+.jbzoo-app-flat table.tablesorter td, .jbzoo-app-flat table.tablesorter th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.jbzoo-app-flat th:first-child {
+    width: 130px;
+}
+
+.jbzoo-app-flat .frontpage .image-full {
+    float: right;
+}
+
+.filter-flats .jbzoo .element-text-range .field input {
+    width: 81%;
+    margin-bottom: 10px;
+}
+
+.filter-flats .element-text-range .field label {
+    float: left;
+    width: 26px;
+}
+
+.filter-flats .element-checkbox .field label {
+    float: left;
+    margin-right: 10px;
+}
+
+.jbzoo-app-flat .full-gallery {
+    width: 60%;
+    float: left;
+}
+
+.jbzoo-app-flat .full-gallery div {
+    margin-top: 10px;
+}
+
+.jbzoo-app-flat .full-gallery div img {
+    border: 1px solid #999;
+}
+
+.jbzoo-app-flat .info-flat {
+    float: right;
+    width: 38%;
+}
+
+.jbzoo-app-flat .price {
+    font-size: 20px;
+}
+
+.jbzoo-app-flat .agent, .jbzoo-app-flat .properties {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#main .jbzoo-app-flat .properties {
+    padding-left: 25px;
+}
+
+.jbzoo-app-flat .description_text {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.jbzoo-app-flat p {
+    font-size: 13px;
+}
+
+.jbzoo-app-flat .agent_teaser .photo {
+    float: left;
+    margin-right: 10px;
+}
+
+.menusubmission-flats {
+    text-align: center;
+}
+
+.menusubmission-flats li {
+    border-bottom: none;
+    background: #0A5E69;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#nav .menusubmission-flats a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav .menusubmission-flats li:hover {
+    opacity: 0.8;
+}
+

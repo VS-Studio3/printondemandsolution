@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>printsolution</name>
+	<creationDate>24-09-2013</creationDate>
+	<author>printsolution</author>
+	<authorEmail>asd@asd.ru</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Copyright (C) 2013</copyright>
+	<license>GNU General Public License version 2</license>
+	<version>1.0</version>
+	<description>printsolution</description>
+
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>html</folder>
+	</files>
+
+	<positions>
+		<position></position>
+	</positions>
+</extension>
