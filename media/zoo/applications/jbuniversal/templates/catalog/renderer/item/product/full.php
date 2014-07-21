@@ -49,7 +49,8 @@ echo $this->renderPosition('rating', array(
 				
 				<h1 class="fadeInDown-1 light-color"><?php echo $this->renderPosition('banner-title'); ?></h1>
 				<div class="fadeInDown-3">
-					<a href="#" class="btn btn-large">Начни прямо сейчас</a>
+                    <a href="#demo-form" class="order-demo btn btn-large fancybox visible-xs">Заказать демо</a>
+					<a href="#" class="btn btn-large hidden-xs">Начни прямо сейчас</a>
 				</div><!-- /.fadeIn -->
 				
 			</div><!-- /.caption -->

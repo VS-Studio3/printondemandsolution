@@ -1,4 +1,6 @@
 <?php
+// Отключить все сообщения об ошибках
+error_reporting(0);
 /**
  * @version    $Id: index.php 20196 2011-01-09 02:40:25Z ian $
  * @package    Joomla.Site
@@ -27,6 +29,7 @@ $task = $_GET['task'];
 <!DOCTYPE html >
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 <head>
+
 <jdoc:include type="head" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
