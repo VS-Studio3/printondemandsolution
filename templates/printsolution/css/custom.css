@@ -275,6 +275,7 @@ text-transform: uppercase;
     text-transform: uppercase!important;
     font-weight: bold;
     margin-bottom: 30px;
+    width: 104%;
 }
 .dark-bg p{
     color: #506a85!important;
