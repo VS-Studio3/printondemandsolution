@@ -41,7 +41,8 @@ echo $this->renderPosition('rating', array(
         <position name="reviews">reviews</position> -->
 
 	<?php if ($this->checkPosition('banner-image')) : ?>				
-	<div class="banner-item" style="background: url('<?php echo trim($this->renderPosition('banner-image')); ?>') no-repeat;">
+	<div class="banner-item" style="background: url('<?php echo trim($this->renderPosition('banner-image')); ?>')
+        center 0px no-repeat;">
 	
 	
 		<div class="container">

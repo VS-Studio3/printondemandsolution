@@ -34,6 +34,10 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('.navbar .navbar-collapse').waypoint('sticky');
+
+
+
+    $('.foxcontainer').css({width: '100px'});
 });
 
 

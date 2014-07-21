@@ -6036,6 +6036,16 @@ input:focus:-ms-input-placeholder {
         font-size: 22px;
         text-align: left;
     }
+    .comments{
+        padding: 50px 0px 0px 0px;
+    }
+
+    .dark-bg h5{
+        font-size: 18px;
+    }
+    .dark-bg p {
+        clear: both;
+    }
 .responsive-menu{
     background-color: #728fab!important;
 }
@@ -6240,6 +6250,7 @@ input:focus:-ms-input-placeholder {
 
     .platform div {
         text-align: left;
+        padding: 5px 15px;
     }
 
     .for_sell div {
@@ -6247,7 +6258,35 @@ input:focus:-ms-input-placeholder {
         padding-top: 0px;
         padding-bottom: 0px;
     }
-
+    .fancybox-close {
+        top: 20px !important;
+        right: 10px !important;
+    }
+    .fancybox-wrap{
+        width: 100% !important;
+        height: auto !important;
+        position: absolute !important;
+        top: 0px !important;
+        left: 0px !important;
+        opacity: 1 !important;
+        overflow: visible !important;
+    }
+    .fancybox-inner{
+        overflow: auto!important;
+        width: 100%!important;
+        height: auto!important;
+    }
+    #demo-form .foxfield {
+        padding-left: 3px!important;
+    }
+    #demo-form {
+         padding: 0px !important;
+    }
+    .fancybox-skin{
+        padding: 15px 10px!important;
+        width: auto!important;
+        height: auto!important;
+    }
     .for_sell div > span {
         display: inline-block;
     }
@@ -6298,9 +6337,18 @@ input:focus:-ms-input-placeholder {
     .tabs-circle-top .etabs:before {
         border-bottom: none;
     }
-
+    .comments div{
+        padding-left: 15px;
+    }
     .tabs-circle-top .tab {
         display: block;
+    }
+    .comments a {
+        word-break: break-all;
+    }
+    .comments .photo_boy img{
+        width: 76px;
+        height: 76px;
     }
 
     .tab a,
