@@ -207,9 +207,7 @@ text-transform: uppercase;
 .comments .photo_boy{
     float: left;
 }
-.comments div:first-child{
-    padding: 0px!important;
-}
+
 .comments div{
     overflow: hidden;
     padding: 0px 0px 0px 30px;
@@ -403,8 +401,118 @@ text-transform: uppercase;
 .footer-menu a:hover{
     color: #ec008d !important;
 }
+#demo-form .foxfield label{
+    font-family: 'Arial', 'sans-serif';
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #5e5e66;
+    margin-bottom: 0px;
+    text-align: left;
+}
 
-
+#demo-form .foxfield button{
+    background-color: #ec008d!important;
+    color: #FFFFFF !important;
+    padding: 9px 20px;
+    margin: 21px 0px -7px 0px !important;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+}
+#demo-form .foxfield button:hover{
+    background-color: #20aa95!important;
+    cursor: pointer;
+}
+#demo-form button.foxbutton span {
+    color: #FFFFFF !important;
+}
+#demo-form .foxfield input{
+    height: 36px;
+    border-color: #aeaeae;
+}
+.fox-copyright{
+    display: none;
+}
+#demo-form .foxfield{
+    overflow: visible;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#demo-form .foxfield:first-child{
+    font-family: 'PT Sans', 'sans-serif';
+    font-size: 18px;
+    line-height: 22px;
+    color: #506a85;
+    text-align: center;
+    margin-bottom: 33px;
+    margin-top: 0px;
+}
+#demo-form .foxfield:first-child a{
+    color: #20aa95;
+   text-decoration: underline;
+}
+#demo-form .foxfield:first-child a:hover{
+    text-decoration: none;
+}
+#demo-form .moduletable h2{
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #506a85;
+    padding: 0px 60px;
+    text-transform: uppercase;
+    background: url("../images/line.png") center bottom no-repeat;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+}
+.foxform {
+    margin-bottom: 20px;
+}
+#demo-form .moduletable h3{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #e0dfdd;
+    padding-top: 10px;
+    margin-bottom: 22px;
+}
+.comments .messages{
+    padding-top: 15px !important;
+    padding-left: 0px;
+}
+.comments .photo_boy{
+    border-radius: 50%;
+    border: 4px solid #ebebeb;
+    padding: 0px!important;
+}
+.fancybox-skin{
+    border-radius: 0px!important;
+}
+.fancybox-close {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    background-image: url("../images/close.png") !important;
+}
 
 /*.for_comments header p{
     letter-spacing :-10px;
