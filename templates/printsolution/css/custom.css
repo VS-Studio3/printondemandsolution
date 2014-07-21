@@ -442,6 +442,7 @@ text-transform: uppercase;
 }
 #demo-form .foxfield input{
     height: 36px;
+    background-color: #fbfbfb;
     border-color: #aeaeae;
 }
 .fox-copyright{
@@ -506,6 +507,7 @@ text-transform: uppercase;
 }
 .fancybox-skin{
     border-radius: 0px!important;
+    background-color: #FFFFFF;
 }
 .fancybox-close {
     position: absolute !important;
