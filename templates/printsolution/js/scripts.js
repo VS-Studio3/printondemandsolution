@@ -36,8 +36,8 @@ $(document).ready(function() {
 	$('.navbar .navbar-collapse').waypoint('sticky');
 
 
+    $('.foxcontainer').removeAttr('style');
 
-    $('.foxcontainer').css({width: '100px'});
 });
 
 

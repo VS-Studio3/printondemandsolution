@@ -6027,8 +6027,10 @@ input:focus:-ms-input-placeholder {
     */
 }
 
-@media (max-width: 380px) {
-
+@media (min-width: 470px) {
+    .foxcontainer{
+        width: 470px;
+    }
 }
 
 @media (max-width: 767px) {
