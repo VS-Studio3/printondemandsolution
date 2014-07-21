@@ -1674,6 +1674,7 @@ aside .thumb figure {
     border-top-left-radius: 3px;
     bottom: -1px;
     z-index: 1;
+    display: block !important;
 }
 
 .skrollable-after .navbar-nav > li > a {
