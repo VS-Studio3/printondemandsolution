@@ -1161,6 +1161,7 @@ footer {
 
 footer.dark-bg {
     color: #506a85;
+    border-top: 1px solid #e1e1e1;
 }
 
 footer .inner {
