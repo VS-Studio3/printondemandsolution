@@ -87,7 +87,11 @@ text-transform: uppercase;
     width: 136px;
     border-radius: 50%;
     display: inline-block;
-    margin-bottom: 13px;
+    margin-bottom: 28px;
+}
+.for_sell div{
+    padding-top: 4px;
+    padding-bottom: 5px;
 }
 .for_sell div > p,
 .platform div > p{
@@ -356,7 +360,7 @@ text-transform: uppercase;
 
 .item figure span{
     font-size: 18px;
-    font-family: 'Times New Roman', 'serif';
+    font-family: 'Roboto', 'serif';
     line-height: 30px;
 	display: block;
     color: #506a85;

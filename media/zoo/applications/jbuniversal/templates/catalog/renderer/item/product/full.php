@@ -62,7 +62,7 @@ echo $this->renderPosition('rating', array(
 		<div class="container inner-top inner-bottom-sm">
 			
 			<div class="row">
-				<div class="col-md-9 col-sm-10 center-block text-center">
+				<div class="col-md-9 col-sm-10 center-block text-center online_photo">
 				
 							
 					<?php echo $this->renderPosition('text-above-tabs'); ?>
@@ -196,7 +196,7 @@ echo $this->renderPosition('rating', array(
             </section>
 		
 <section id="latest-works" class="light-bg">
-	<div class="container inner" style="padding-bottom: 33px">
+	<div class="container inner view_product" style="padding-bottom: 18px">
 		
 		<div class="row">
 			<div class="col-md-8 col-sm-9 center-block text-center" style="margin-bottom: 50px;">
@@ -223,7 +223,7 @@ echo $this->renderPosition('rating', array(
 		
 		
 		<section id="who-we-are">
-                <div class="container inner-top inner-bottom-sm" style="padding-bottom: 30px">
+                <div class="container inner-top inner-bottom-sm perevagu" style="padding-bottom: 20px">
 
                       <div class="row">
                              <div class="col-md-12 col-sm-12 center-block text-center">
@@ -289,14 +289,14 @@ echo $this->renderPosition('rating', array(
                             </div><!-- /.col -->
 
 
-                            <div class="col-md-4 col-sm-4 inner-bottom-xs">
+                            <div class="col-md-4 col-sm-4 inner-bottom-xs hidden-xs">
 
                             </div><!-- /.col -->
-                            <div class="col-md-4 col-sm-4 inner-bottom-xs">
+                            <div class="col-md-4 col-sm-4 inner-bottom-xs last_product">
                                 <span class="price"></span>
                                 <p class="text-small">Доступная цена<br> платформы</p>
                             </div><!-- /.col -->
-                            <div class="col-md-4 col-sm-4 inner-bottom-xs">
+                            <div class="col-md-4 col-sm-4 inner-bottom-xs hidden-xs">
 
                             </div><!-- /.col -->
 

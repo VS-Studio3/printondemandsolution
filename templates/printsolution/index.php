@@ -100,7 +100,7 @@ $task = $_GET['task'];
 				
 				<div class="yamm">
 					<div class="navbar-collapse collapse">
-						<div class="container" style="max-height: 110px;">
+						<div class="container menus" style="max-height: 110px;">
 							
 							<!-- ============================================================= LOGO ============================================================= -->
 							
@@ -114,7 +114,7 @@ $task = $_GET['task'];
 							
 							<jdoc:include type="modules" name="top-menu" />
 							
-                            <a href="#" class="order-demo btn btn-large">Заказать демо</a>
+                            <a href="#" class="order-demo btn btn-large hidden-xs">Заказать демо</a>
                                 
 							
 							<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
