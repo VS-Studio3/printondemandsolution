@@ -417,93 +417,10 @@ echo $this->renderPosition('rating', array(
                     </div><!-- /.row -->
 
 
-                    <div class="row">
-
-                        <div class="col-sm-6 inner-left-xs text-left comments">
-                            <div class="photo_boy">
-                                <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/default_boy.png">
-                            </div>
-                            <div>
-                                <span class="name">
-                                    Вася Пупкин,
-                                </span>
-                                <p class="who">генеральный директор «Компании»</p>
-                                <a href="#"> www.сайткомпании.ру</a>
-                            </div>
-                            <div class="for_massages">
-                                <p class="messages">
-                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere molestie lectusut volutpat. Vivamus et venenatis mauris, posuere placerat ipsum. Proin laciniaorci est, vitae elementum tellus viverra ut. Nunc feugiat magna”
-                                    ac eros elementum
-                                    aliquet. Nulla at porttitor odio. Quisque sed orci et orci scelerisque semper.
-                                </p>
-                            </div>
-                        </div><!-- /.col -->
-
-                        <div class="col-sm-6 inner-left-xs inner-left-xs comments">
-                            <div class="photo_boy">
-                                <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/default_boy.png">
-                            </div>
-                            <div>
-                                <span class="name">
-                                    Вася Пупкин,
-                                </span>
-                                <p class="who">генеральный директор «Компании»</p>
-                                <a href="#"> www.сайткомпании.ру</a>
-                            </div>
-                            <div class="for_massages">
-                                <p class="messages">
-                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere molestie lectusut volutpat. Vivamus et venenatis mauris, posuere placerat ipsum. Proin laciniaorci est, vitae elementum tellus viverra ut. Nunc feugiat magna”
-                                    ac eros elementum
-                                    aliquet. Nulla at porttitor odio. Quisque sed orci et orci scelerisque semper.
-                                </p>
-                            </div>
-                        </div><!-- /.col -->
-
-                    </div><!-- /.row -->
-                    <div class="row">
-
-                        <div class="col-sm-6 inner-left-xs text-left comments">
-                            <div class="photo_boy">
-                                <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/default_boy.png">
-                            </div>
-                            <div>
-                                <span class="name">
-                                    Вася Пупкин,
-                                </span>
-                                <p class="who">генеральный директор «Компании»</p>
-                                <a href="#"> www.сайткомпании.ру</a>
-                            </div>
-                            <div class="for_massages">
-                                <p class="messages">
-                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere molestie lectusut volutpat. Vivamus et venenatis mauris, posuere placerat ipsum. Proin laciniaorci est, vitae elementum tellus viverra ut. Nunc feugiat magna”
-                                    ac eros elementum
-                                    aliquet. Nulla at porttitor odio. Quisque sed orci et orci scelerisque semper.
-                                </p>
-                            </div>
-                        </div><!-- /.col -->
-
-                        <div class="col-sm-6 inner-left-xs inner-left-xs comments">
-                            <div class="photo_boy">
-                                <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/default_boy.png">
-                            </div>
-                            <div>
-                                <span class="name">
-                                    Вася Пупкин,
-                                </span>
-                                <p class="who">генеральный директор «Компании»</p>
-                                <a href="#"> www.сайткомпании.ру</a>
-                            </div>
-                            <div class="for_massages">
-                                <p class="messages">
-                                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere molestie lectusut volutpat. Vivamus et venenatis mauris, posuere placerat ipsum. Proin laciniaorci est, vitae elementum tellus viverra ut. Nunc feugiat magna”
-                                    ac eros elementum
-                                    aliquet. Nulla at porttitor odio. Quisque sed orci et orci scelerisque semper.
-                                </p>
-                            </div>
-                        </div><!-- /.col -->
-
-                    </div><!-- /.row -->
-                 
+                   
+					
+                 <?php echo $this->renderPosition('reviews'); ?>
+				 
 
                 </div><!-- /.container -->
             </section>

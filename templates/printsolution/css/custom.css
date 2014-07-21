@@ -405,3 +405,7 @@ text-transform: uppercase;
 /*.for_comments header p{
     letter-spacing :-10px;
 }*/
+
+#demo-form {
+	padding: 0 65px;
+}

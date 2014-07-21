@@ -114,7 +114,7 @@ $task = $_GET['task'];
 							
 							<jdoc:include type="modules" name="top-menu" />
 							
-                            <a href="#" class="order-demo btn btn-large">Заказать демо</a>
+                            <a href="#demo-form" class="order-demo btn btn-large fancybox">Заказать демо</a>
                                 
 							
 							<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
@@ -273,9 +273,9 @@ $task = $_GET['task'];
 
 
 <div style="display:none;">
-    <div id="order-form">
-    	<h3></h3>
-		<jdoc:include type="modules" name="order-product-form" style="xhtml"/>
+    <div id="demo-form">
+    	
+		<jdoc:include type="modules" name="demo-form" style="xhtml"/>
 	</div>
 </div>
 
