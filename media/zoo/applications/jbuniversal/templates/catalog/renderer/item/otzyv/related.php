@@ -44,10 +44,10 @@ $align = $this->app->jbitem->getMediaAlign($item, $layout);
 	
 </div>
 
-<?php if ($this->checkPosition('site')) : ?>
+<?php if ($this->checkPosition('text')) : ?>
 	<div class="for_massages">
 		<div class="messages">
-		<?php echo $this->renderPosition('site'); ?>
+		<?php echo $this->renderPosition('text'); ?>
 		</div>
 	</div>
 <?php endif; ?>
