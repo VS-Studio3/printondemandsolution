@@ -107,7 +107,8 @@ $task = $_GET['task'];
 							
 							<!-- ============================================================= LOGO ============================================================= -->
 							
-							<a class="navbar-brand hidden-xs" href="<?php echo $this->baseurl ?>"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logotype.png"
+							<a class="navbar-brand hidden-xs no_visible_xs" href="<?php echo $this->baseurl ?>"><img
+                                    src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logotype.png"
                                                                             class="logo hidden-xs" alt=""></a>
 							
 							<!-- ============================================================= LOGO : END ============================================================= -->
