@@ -276,10 +276,6 @@
     margin-bottom: 2px !important;
 }
 
-.navbar-brand.hidden-xs.no_visible_xs {
-    display: none !important;
-}
-
 .comments .name {
     font-size: 20px;
     line-height: 20px;

@@ -6040,7 +6040,9 @@ input:focus:-ms-input-placeholder {
         font-size: 22px;
         text-align: left;
     }
-
+    .navbar-brand.hidden-xs.no_visible_xs {
+        display: none !important;
+    }
     .comments {
         padding: 50px 0px 0px 0px;
     }
