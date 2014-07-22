@@ -6043,6 +6043,12 @@ input:focus:-ms-input-placeholder {
     .navbar-brand.hidden-xs.no_visible_xs {
         display: none !important;
     }
+    .navbar-collapse.in {
+        overflow-y: hidden !important;
+    }
+    .fancybox-lock .fancybox-overlay{
+        overflow-y: hidden !important;
+    }
     .comments {
         padding: 50px 0px 0px 0px;
     }
