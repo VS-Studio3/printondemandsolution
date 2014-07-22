@@ -31,6 +31,8 @@ $task = $_GET['task'];
 <head>
 
 <jdoc:include type="head" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
 <!-- Bootstrap Core CSS -->
@@ -155,8 +157,15 @@ $task = $_GET['task'];
 			<!-- ============================================================= SECTION – GET IN TOUCH : END ============================================================= -->
 
             <!-- ============================================================= SECTION – PRODUCT ============================================================= -->
+            <section>
+                    <jdoc:include type="modules" name="phone" style="xhtml"/>
+            </section>
+            <section>
+                <div class="container">
+                    <jdoc:include type="modules" name="fox-contact" style="xhtml"/>
+                </div>
 
-
+            </section>
             <!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
 		</main>
 		
@@ -190,8 +199,7 @@ $task = $_GET['task'];
                                 href="index.html"><img class="logo img-intext" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logo-white.svg" alt=""></a>-->
                         <h5 class="hidden-xs">PrintOnDemandSolution</h5>
                         <h5 class="visible-xs">Print On Demand Solution</h5>
-                        <p>очень краткий текст о компании очень краткий текст о компании очень краткий
-                            текст о компании очень краткий текст о компании очень краткий текст о компании очень краткий текст о компании</p>
+                        <p>Компания PrintOnDemandSolution (ООО "Айфото сервис") специализируется на разработке и продаже облачного решения для подготовки и оформления онлайн заказов на различные виды полиграфической и сувенирной фотопродукции.</p>
                         <a href="about.html" class="know_more">Узнать больше</a>
                     </div><!-- /.col -->
 					
