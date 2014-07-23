@@ -148,24 +148,52 @@ $task = $_GET['task'];
 					<jdoc:include type="component" />
 					<jdoc:include type="modules" name="bottom-component" style="xhtml"/>
 			</section>
-			
 
 
-       
-            
-			
+
+            <?php if ($this->countModules( 'main_baner' )) : ?>
+            <section id="main_baner">
+                <jdoc:include type="modules" name="main_baner" style="xhtml"/>
+            </section>
+            <?php endif; ?>
+            <?php if ($this->countModules( 'company' )) : ?>
+            <section id="about_company">
+                <jdoc:include type="modules" name="company" style="xhtml"/>
+            </section>
+            <?php endif; ?>
+
+
 			<!-- ============================================================= SECTION – GET IN TOUCH : END ============================================================= -->
 
             <!-- ============================================================= SECTION – PRODUCT ============================================================= -->
-            <section>
+
+            <?php if ($this->countModules( 'yandex-map' )) : ?>
+            <section id="get-map">
+                <jdoc:include type="modules" name="yandex-map" style="xhtml"/>
+            </section>
+            <?php endif; ?>
+
+            <?php if ($this->countModules( 'phone' )) : ?>
+            <section id="get-phone">
                     <jdoc:include type="modules" name="phone" style="xhtml"/>
             </section>
+            <?php endif; ?>
+
+            <?php if ($this->countModules( 'fox-contact' )) : ?>
             <section>
+
                 <div class="container">
-                    <jdoc:include type="modules" name="fox-contact" style="xhtml"/>
+                    <div class="row">
+                        <div class="col-md-7 col-sm-9 center-block text-center">
+                            <h3 class="conta">готовы ответить на ваши вопросы</h3>
+                            <jdoc:include type="modules" name="fox-contact" style="xhtml"/>
+                        </div>
+                    </div>
+
                 </div>
 
             </section>
+            <?php endif; ?>
             <!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
 		</main>
 		
@@ -202,7 +230,7 @@ $task = $_GET['task'];
                         <p>Компания PrintOnDemandSolution (ООО "Айфото сервис") специализируется на разработке и продаже облачного решения для подготовки и оформления онлайн заказов на различные виды полиграфической и сувенирной фотопродукции.</p>
                         <a href="about.html" class="know_more">Узнать больше</a>
                     </div><!-- /.col -->
-					
+
 					<div class="col-md-4 col-sm-4 col-xs-12 inner over_contact">
 						<!--<h4>Get In Touch</h4>
 						<p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>-->
@@ -259,7 +287,7 @@ $task = $_GET['task'];
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.isotope.min.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.easytabs.min.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.slickforms.js"></script>
-		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/google.maps.api.v3.js"></script>
+
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/viewport-units-buggyfill.js"></script>
 		<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/scripts.js"></script>
 		

@@ -1169,10 +1169,7 @@ footer .inner {
     padding-bottom: 35px;
 }
 
-footer .container > .row {
-    margin-left: -25px;
-    margin-right: -25px;
-}
+
 
 footer .row .inner {
     padding: 25px;
@@ -6036,6 +6033,17 @@ input:focus:-ms-input-placeholder {
 }
 
 @media (max-width: 767px) {
+    html{
+        overflow-x: hi;
+    }
+    .dark-bg .col-xs-12{
+        width: 100%;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .conta{
+        text-align: center !important;
+    }
     h3 {
         font-size: 22px;
         text-align: left;
@@ -6068,11 +6076,6 @@ input:focus:-ms-input-placeholder {
     .caption.vertical-center.text-center a {
         margin: 40px 0px 60px;
     }
-
-    .banner-item h1 {
-        width: 108%;
-    }
-
     .banner-item {
         background-size: cover !important;
     }
@@ -6461,6 +6464,7 @@ input:focus:-ms-input-placeholder {
     .dark-bg .container.inner {
         padding: 5px 20px 15px;
     }
+
 
     .dark-bg .col-md-6.col-sm-6.col-xs-12.inner {
         padding-left: 20px !important;

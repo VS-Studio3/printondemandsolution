@@ -398,7 +398,7 @@ echo $this->renderPosition('rating', array(
 								<h3>хотите увидеть нашу платформу в работе</h3>
 								<p>Мы готовы продемонстрировать полный функционал </p>
 							</header>
-							<a href="#" class="btn btn-large">Заказать демо</a>
+							<a href="#demo-form" class="btn btn-large fancybox">Заказать демо</a>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->

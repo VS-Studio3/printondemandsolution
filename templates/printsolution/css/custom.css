@@ -330,7 +330,6 @@
     text-transform: uppercase !important;
     font-weight: bold;
     margin-bottom: 30px;
-    width: 104%;
 }
 
 .dark-bg p {
@@ -389,7 +388,150 @@
     padding: 12px 26px !important;
     margin-bottom: 30px;
 }
+#get-phone{
+    background: url("../images/back_green.png") center 0px no-repeat;
+    background-size: cover;
+}
+#get-phone .col-md-10.col-sm-11{
+    opacity: 1!important;
+}
+#get-phone .btn{
+    background-color: #ffffff;
+    color: #ec008d!important;
+    padding: 12px 26px 12px;
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+#get-phone .btn:hover{
+    background-color: #728fab !important;
+    color: #FFFFFF!important;
+}
+#get-phone .emails_phones{
+    color: #ffffff;
+    display: block;
+    clear: both;
+    font-family: 'PT Sans', 'sans-serif';
+    font-size: 16px;
+    line-height: 39px;
+}
+#get-phone .skype_phones{
+    color: #ffffff;
+    display: block;
+    clear: both;
+    font-family: 'PT Sans', 'sans-serif';
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 7px!important;
+}
+#get-phone .number_phones:before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    background: url("../images/phone_white.png") 0px 0px no-repeat;
+    width: 17px;
+    height: 23px;
+}
+#get-phone .number_phones{
+    display: block;
+    position: relative;
+    font-family: 'PT Sans', 'sans-serif';
+    font-size: 22px;
+    line-height: 32px;
+    color: #ffffff;
+    width: 185px;
+    margin: 0px auto;
+}
+.foxcontainerfox_contact label{
+    text-align: left;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: bold;
+    color: #5e5e66;
+    margin-bottom: 0px;
+}
+.conta{
+    margin-top: 52px !important;
+    margin-bottom: 40px !important;
+    display: none;
+}
+#contacts .conta{
+    display: block;
+}
+#about_us_company h3{
+    text-align: center;
+    margin-bottom: 45px;
+}
+#about_us_company .item-pageabout_us_company{
+    display: none;
+}
+#about_company{
+    padding: 55px 0px 100px 0px;
+}
+#about_us_company p{
+    font-family: 'PT Sans', 'sans-serif';
+    font-size: 16px;
+    line-height: 20px;
+    color: #506a85;
+}
+.foxcontainerfox_contact .foxfield{
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.ymaps-copyrights-legend{
+    display: none !important;
+}
+#contacts h1{
+    position: absolute;
+    z-index: -1;
+}
+#contacts .item-pagecontacts p{
+    display: none;
+}
+.foxcontainerfox_contact input{
+    height: 36px !important;
+    background-color: #fbfbfb !important;
+    border-color: #aeaeae !important;
+}
+#get-phone .emails_phones:hover{
+    text-decoration: underline;
+}
+.foxcontainerfox_contact button{
+    background-color: #728fab !important;
+    color: #FFFFFF !important;
+    padding: 9px 50px;
+    margin: 37px 0px 38px 0px !important;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+}
+.foxcontainerfox_contact button span{
+    color: #FFFFFF !important;
+}
+.foxcontainerfox_contact button:hover{
+    background-color: #20aa95!important;
+}
 
+.foxcontainerfox_contact textarea{
+    background-color: #fbfbfb !important;
+    border-color: #aeaeae !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
 .navbar-brand {
     position: relative;
     top: -35px;
