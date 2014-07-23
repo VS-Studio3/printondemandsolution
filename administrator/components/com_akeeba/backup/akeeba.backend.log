@@ -1,0 +1,628 @@
+DEBUG   |140721 15:31:57|*** Batching successive steps (nesting level 1)
+DEBUG   |140721 15:31:57|====== Starting Step number 1 ======
+DEBUG   |140721 15:31:57|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |140721 15:31:57|AECoreDomainInit :: New instance
+DEBUG   |140721 15:31:57|----- Finished operation 1 ------
+INFO    |140721 15:31:57|--------------------------------------------------------------------------------
+INFO    |140721 15:31:57|Akeeba Backup 3.11.2 (2014-06-12)
+INFO    |140721 15:31:57|Got backup?
+INFO    |140721 15:31:57|--------------------------------------------------------------------------------
+INFO    |140721 15:31:57|--- System Information ---
+INFO    |140721 15:31:57|PHP Version        :5.3.13
+INFO    |140721 15:31:57|PHP OS             :WINNT
+INFO    |140721 15:31:57|PHP SAPI           :apache2handler
+INFO    |140721 15:31:57|OS Version         :Windows NT
+INFO    |140721 15:31:57|DB Version         :5.5.25
+INFO    |140721 15:31:57|Web Server         :Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13
+INFO    |140721 15:31:57|Joomla! version    :2.5.22
+INFO    |140721 15:31:57|Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+INFO    |140721 15:31:57|Safe mode          :
+INFO    |140721 15:31:57|Display errors     :
+INFO    |140721 15:31:57|Error reporting    :E_ERROR | E_WARNING | E_PARSE | E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_COMPILE_WARNING | E_USER_ERROR | E_USER_WARNING | E_USER_NOTICE
+INFO    |140721 15:31:57|Error display      :off
+INFO    |140721 15:31:57|Disabled functions :
+INFO    |140721 15:31:57|open_basedir restr.:
+INFO    |140721 15:31:57|Max. exec. time    :99
+INFO    |140721 15:31:57|Memory limit       :512M
+INFO    |140721 15:31:57|Current mem. usage :16812520
+INFO    |140721 15:31:57|GZIP Compression   : available (good)
+INFO    |140721 15:31:57|JPATH_BASE         :<root>\administrator
+INFO    |140721 15:31:57|JPATH_SITE         :<root>
+INFO    |140721 15:31:57|JPATH_ROOT         :<root>
+INFO    |140721 15:31:57|JPATH_CACHE        :<root>/cache
+INFO    |140721 15:31:57|Computed root      :<root>
+INFO    |140721 15:31:57|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |140721 15:31:57|Part size (bytes)  :2147352576
+INFO    |140721 15:31:57|--------------------------------------------------------------------------------
+INFO    |140721 15:31:57|Akeeba Backup has detected the following potential problems:
+INFO    |140721 15:31:57|- 203 Default output directory in use (low)
+INFO    |140721 15:31:57|- 401 ZIP format selected (low)
+INFO    |140721 15:31:57|You probably do not have to worry about them, but you should be aware of them.
+INFO    |140721 15:31:57|--------------------------------------------------------------------------------
+INFO    |140721 15:31:57|Loaded profile #1
+DEBUG   |140721 15:31:57|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |140721 15:31:58|Expanded template name: site-localhost-20140721-123158
+DEBUG   |140721 15:31:58|Backup type is now set to 'dbonly'
+DEBUG   |140721 15:31:58|----- Finished operation 2 ------
+DEBUG   |140721 15:31:58|----- Finished operation 3 ------
+DEBUG   |140721 15:31:58|Successful Smart algorithm on AECoreDomainInit
+DEBUG   |140721 15:31:58|Kettenrad :: Domain 'init' has finished.
+DEBUG   |140721 15:31:58|====== Finished Step number 1 ======
+DEBUG   |140721 15:31:58|*** Engine steps batching: Break flag detected.
+DEBUG   |140721 15:31:58|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |140721 15:31:58|Sleeping for 1616.162776947 msec, using usleep()
+DEBUG   |140721 15:31:59|Saving Kettenrad instance backend
+DEBUG   |140721 15:31:59|
+DEBUG   |140721 15:32:00| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |140721 15:32:00|====== Starting Step number 1 ======
+DEBUG   |140721 15:32:00|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |140721 15:32:00|AECoreDomainDb :: New instance
+DEBUG   |140721 15:32:00|AECoreDomainDb :: Preparing instance
+DEBUG   |140721 15:32:00|Fetching filter data from database
+DEBUG   |140721 15:32:00|Loading filters
+DEBUG   |140721 15:32:00|-- Loading filter Directories
+DEBUG   |140721 15:32:00|-- Loading filter Files
+DEBUG   |140721 15:32:00|-- Loading filter Incremental
+DEBUG   |140721 15:32:00|-- Loading filter Skipdirs
+DEBUG   |140721 15:32:00|-- Loading filter Skipfiles
+DEBUG   |140721 15:32:00|-- Loading filter Srpdata
+DEBUG   |140721 15:32:00|-- Loading filter Srpdirs
+DEBUG   |140721 15:32:00|-- Loading filter Srpfiles
+DEBUG   |140721 15:32:00|-- Loading filter Srpskipdata
+DEBUG   |140721 15:32:00|-- Loading filter Srpskipfiles
+DEBUG   |140721 15:32:00|-- Loading filter Tabledata
+DEBUG   |140721 15:32:00|-- Loading filter Tables
+DEBUG   |140721 15:32:00|-- Loading filter PlatformFiles
+DEBUG   |140721 15:32:00|-- Loading filter PlatformFolders
+DEBUG   |140721 15:32:00|-- Loading filter PlatformLibraries
+DEBUG   |140721 15:32:00|-- Loading filter PlatformSitedb
+DEBUG   |140721 15:32:00|-- Loading filter PlatformSiteroot
+DEBUG   |140721 15:32:00|-- Loading filter PlatformSkipdirs
+DEBUG   |140721 15:32:00|-- Loading filter PlatformSkipfiles
+DEBUG   |140721 15:32:00|-- Loading filter PlatformSystemcachefiles
+DEBUG   |140721 15:32:00|-- Loading filter PlatformTabledata
+DEBUG   |140721 15:32:00|Loading optional filters
+DEBUG   |140721 15:32:00|-- Loading optional filter StackPlatformFinder
+DEBUG   |140721 15:32:00|AECoreDomainDb :: Adding only main database
+DEBUG   |140721 15:32:00|----- Finished operation 1 ------
+DEBUG   |140721 15:32:00|AECoreDomainDb :: Iterating next database
+DEBUG   |140721 15:32:01|AEDumpNative :: New instance
+DEBUG   |140721 15:32:01|AEDumpNative :: Processing parameters
+DEBUG   |140721 15:32:01|AEDumpNative :: Instanciating new native database dump engine AEDumpNativeMysql
+DEBUG   |140721 15:32:01|AEDumpNativeMysql :: New instance
+DEBUG   |140721 15:32:01|AEAbstractDump :: Processing parameters
+DEBUG   |140721 15:32:01|AEDumpNativeMysql :: Finding tables to include in the backup set
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_ak_profiles (internal name #__ak_profiles)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_ak_stats (internal name #__ak_stats)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_ak_storage (internal name #__ak_storage)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_assets (internal name #__assets)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_associations (internal name #__associations)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_banner_clients (internal name #__banner_clients)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_banner_tracks (internal name #__banner_tracks)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_banners (internal name #__banners)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_categories (internal name #__categories)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_contact_details (internal name #__contact_details)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_content (internal name #__content)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_content_frontpage (internal name #__content_frontpage)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_content_rating (internal name #__content_rating)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_core_log_searches (internal name #__core_log_searches)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_extensions (internal name #__extensions)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_filters (internal name #__finder_filters)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links (internal name #__finder_links)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms0 (internal name #__finder_links_terms0)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms1 (internal name #__finder_links_terms1)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms2 (internal name #__finder_links_terms2)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms3 (internal name #__finder_links_terms3)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms4 (internal name #__finder_links_terms4)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms5 (internal name #__finder_links_terms5)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms6 (internal name #__finder_links_terms6)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms7 (internal name #__finder_links_terms7)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms8 (internal name #__finder_links_terms8)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_terms9 (internal name #__finder_links_terms9)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_termsa (internal name #__finder_links_termsa)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_termsb (internal name #__finder_links_termsb)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_termsc (internal name #__finder_links_termsc)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_termsd (internal name #__finder_links_termsd)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_termse (internal name #__finder_links_termse)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_links_termsf (internal name #__finder_links_termsf)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_taxonomy (internal name #__finder_taxonomy)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_taxonomy_map (internal name #__finder_taxonomy_map)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_terms (internal name #__finder_terms)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_terms_common (internal name #__finder_terms_common)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_tokens (internal name #__finder_tokens)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_tokens_aggregate (internal name #__finder_tokens_aggregate)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_finder_types (internal name #__finder_types)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_foxcontact_sessions (internal name #__foxcontact_sessions)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_foxcontact_settings (internal name #__foxcontact_settings)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_languages (internal name #__languages)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_menu (internal name #__menu)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_menu_types (internal name #__menu_types)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_messages (internal name #__messages)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_messages_cfg (internal name #__messages_cfg)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_modules (internal name #__modules)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_modules_menu (internal name #__modules_menu)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_newsfeeds (internal name #__newsfeeds)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_overrider (internal name #__overrider)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_redirect_links (internal name #__redirect_links)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_schemas (internal name #__schemas)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_session (internal name #__session)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_template_styles (internal name #__template_styles)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_update_categories (internal name #__update_categories)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_update_sites (internal name #__update_sites)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_update_sites_extensions (internal name #__update_sites_extensions)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_updates (internal name #__updates)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_user_notes (internal name #__user_notes)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_user_profiles (internal name #__user_profiles)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_user_usergroup_map (internal name #__user_usergroup_map)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_usergroups (internal name #__usergroups)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_users (internal name #__users)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_viewlevels (internal name #__viewlevels)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_weblinks (internal name #__weblinks)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_application (internal name #__zoo_application)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_category (internal name #__zoo_category)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_category_item (internal name #__zoo_category_item)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_comment (internal name #__zoo_comment)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_item (internal name #__zoo_item)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_jbzoo_index (internal name #__zoo_jbzoo_index)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_rating (internal name #__zoo_rating)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_search_index (internal name #__zoo_search_index)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_submission (internal name #__zoo_submission)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_tag (internal name #__zoo_tag)
+INFO    |140721 15:32:01|AEDumpNativeMysql :: Adding sdc98_zoo_version (internal name #__zoo_version)
+DEBUG   |140721 15:32:01|AEDumpNativeMysql :: Starting CREATE TABLE and dependency scanning
+DEBUG   |140721 15:32:01|AEDumpNativeMysql :: Got database connection
+DEBUG   |140721 15:32:01|AEDumpNativeMysql :: Got SHOW TABLES
+DEBUG   |140721 15:32:01|AEDumpNativeMysql :: Got table list
+DEBUG   |140721 15:32:01|AEDumpNativeMysql :: Processed dependencies
+DEBUG   |140721 15:32:01|AEAbstractDump :: Getting temporary file
+DEBUG   |140721 15:32:01|AEAbstractDump :: Temporary file is <root>/administrator/components/com_akeeba/backup/77e23583.sql
+DEBUG   |140721 15:32:01|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/77e23583.sql
+DEBUG   |140721 15:32:01|AkeebaDomainDBBackup :: SQL file location in archive is <root>/administrator/components/com_akeeba/backup/site-localhost-20140721-123158.sql
+DEBUG   |140721 15:32:01|AkeebaDomainDBBackup :: Deleting leftover files, if any
+DEBUG   |140721 15:32:01|AEAbstractDump :: Initializing algorithm for first run
+DEBUG   |140721 15:32:01|----- Finished operation 2 ------
+DEBUG   |140721 15:32:01|Rows on #__ak_profiles : 1
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__ak_profiles
+INFO    |140721 15:32:01|Beginning dump of #__ak_profiles
+DEBUG   |140721 15:32:01|Done dumping #__ak_profiles
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__ak_profiles
+DEBUG   |140721 15:32:01|----- Finished operation 3 ------
+DEBUG   |140721 15:32:01|Rows on #__ak_stats : 2
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__ak_stats
+INFO    |140721 15:32:01|Beginning dump of #__ak_stats
+DEBUG   |140721 15:32:01|Done dumping #__ak_stats
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__ak_stats
+DEBUG   |140721 15:32:01|----- Finished operation 4 ------
+DEBUG   |140721 15:32:01|Rows on #__ak_storage : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__ak_storage
+DEBUG   |140721 15:32:01|Done dumping #__ak_storage
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__ak_storage
+DEBUG   |140721 15:32:01|----- Finished operation 5 ------
+DEBUG   |140721 15:32:01|Rows on #__assets : 39
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__assets
+INFO    |140721 15:32:01|Beginning dump of #__assets
+DEBUG   |140721 15:32:01|Done dumping #__assets
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__assets
+DEBUG   |140721 15:32:01|----- Finished operation 6 ------
+DEBUG   |140721 15:32:01|Rows on #__associations : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__associations
+DEBUG   |140721 15:32:01|Done dumping #__associations
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__associations
+DEBUG   |140721 15:32:01|----- Finished operation 7 ------
+DEBUG   |140721 15:32:01|Rows on #__banner_clients : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__banner_clients
+DEBUG   |140721 15:32:01|Done dumping #__banner_clients
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__banner_clients
+DEBUG   |140721 15:32:01|----- Finished operation 8 ------
+DEBUG   |140721 15:32:01|Rows on #__banner_tracks : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__banner_tracks
+DEBUG   |140721 15:32:01|Done dumping #__banner_tracks
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__banner_tracks
+DEBUG   |140721 15:32:01|----- Finished operation 9 ------
+DEBUG   |140721 15:32:01|Rows on #__banners : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__banners
+DEBUG   |140721 15:32:01|Done dumping #__banners
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__banners
+DEBUG   |140721 15:32:01|----- Finished operation 10 ------
+DEBUG   |140721 15:32:01|Rows on #__categories : 7
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__categories
+INFO    |140721 15:32:01|Beginning dump of #__categories
+DEBUG   |140721 15:32:01|Done dumping #__categories
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__categories
+DEBUG   |140721 15:32:01|----- Finished operation 11 ------
+DEBUG   |140721 15:32:01|Rows on #__contact_details : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__contact_details
+DEBUG   |140721 15:32:01|Done dumping #__contact_details
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__contact_details
+DEBUG   |140721 15:32:01|----- Finished operation 12 ------
+DEBUG   |140721 15:32:01|Rows on #__content : 2
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__content
+INFO    |140721 15:32:01|Beginning dump of #__content
+DEBUG   |140721 15:32:01|Done dumping #__content
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__content
+DEBUG   |140721 15:32:01|----- Finished operation 13 ------
+DEBUG   |140721 15:32:01|Rows on #__content_frontpage : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__content_frontpage
+DEBUG   |140721 15:32:01|Done dumping #__content_frontpage
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__content_frontpage
+DEBUG   |140721 15:32:01|----- Finished operation 14 ------
+DEBUG   |140721 15:32:01|Rows on #__content_rating : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__content_rating
+DEBUG   |140721 15:32:01|Done dumping #__content_rating
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__content_rating
+DEBUG   |140721 15:32:01|----- Finished operation 15 ------
+DEBUG   |140721 15:32:01|Rows on #__core_log_searches : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__core_log_searches
+DEBUG   |140721 15:32:01|Done dumping #__core_log_searches
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__core_log_searches
+DEBUG   |140721 15:32:01|----- Finished operation 16 ------
+DEBUG   |140721 15:32:01|Rows on #__extensions : 144
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__extensions
+INFO    |140721 15:32:01|Beginning dump of #__extensions
+DEBUG   |140721 15:32:01|Done dumping #__extensions
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__extensions
+DEBUG   |140721 15:32:01|----- Finished operation 17 ------
+DEBUG   |140721 15:32:01|Rows on #__finder_filters : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__finder_filters
+DEBUG   |140721 15:32:01|Done dumping #__finder_filters
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__finder_filters
+DEBUG   |140721 15:32:01|----- Finished operation 18 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links
+DEBUG   |140721 15:32:01|Done dumping #__finder_links
+DEBUG   |140721 15:32:01|----- Finished operation 19 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms0
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms0
+DEBUG   |140721 15:32:01|----- Finished operation 20 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms1
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms1
+DEBUG   |140721 15:32:01|----- Finished operation 21 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms2
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms2
+DEBUG   |140721 15:32:01|----- Finished operation 22 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms3
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms3
+DEBUG   |140721 15:32:01|----- Finished operation 23 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms4
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms4
+DEBUG   |140721 15:32:01|----- Finished operation 24 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms5
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms5
+DEBUG   |140721 15:32:01|----- Finished operation 25 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms6
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms6
+DEBUG   |140721 15:32:01|----- Finished operation 26 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms7
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms7
+DEBUG   |140721 15:32:01|----- Finished operation 27 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms8
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms8
+DEBUG   |140721 15:32:01|----- Finished operation 28 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_terms9
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_terms9
+DEBUG   |140721 15:32:01|----- Finished operation 29 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_termsa
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_termsa
+DEBUG   |140721 15:32:01|----- Finished operation 30 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_termsb
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_termsb
+DEBUG   |140721 15:32:01|----- Finished operation 31 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_termsc
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_termsc
+DEBUG   |140721 15:32:01|----- Finished operation 32 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_termsd
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_termsd
+DEBUG   |140721 15:32:01|----- Finished operation 33 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_termse
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_termse
+DEBUG   |140721 15:32:01|----- Finished operation 34 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_links_termsf
+DEBUG   |140721 15:32:01|Done dumping #__finder_links_termsf
+DEBUG   |140721 15:32:01|----- Finished operation 35 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_taxonomy
+DEBUG   |140721 15:32:01|Done dumping #__finder_taxonomy
+DEBUG   |140721 15:32:01|----- Finished operation 36 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_taxonomy_map
+DEBUG   |140721 15:32:01|Done dumping #__finder_taxonomy_map
+DEBUG   |140721 15:32:01|----- Finished operation 37 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_terms
+DEBUG   |140721 15:32:01|Done dumping #__finder_terms
+DEBUG   |140721 15:32:01|----- Finished operation 38 ------
+DEBUG   |140721 15:32:01|Rows on #__finder_terms_common : 115
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__finder_terms_common
+INFO    |140721 15:32:01|Beginning dump of #__finder_terms_common
+DEBUG   |140721 15:32:01|Done dumping #__finder_terms_common
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__finder_terms_common
+DEBUG   |140721 15:32:01|----- Finished operation 39 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_tokens
+DEBUG   |140721 15:32:01|Done dumping #__finder_tokens
+DEBUG   |140721 15:32:01|----- Finished operation 40 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__finder_tokens_aggregate
+DEBUG   |140721 15:32:01|Done dumping #__finder_tokens_aggregate
+DEBUG   |140721 15:32:01|----- Finished operation 41 ------
+DEBUG   |140721 15:32:01|Rows on #__finder_types : 6
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__finder_types
+INFO    |140721 15:32:01|Beginning dump of #__finder_types
+DEBUG   |140721 15:32:01|Done dumping #__finder_types
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__finder_types
+DEBUG   |140721 15:32:01|----- Finished operation 42 ------
+DEBUG   |140721 15:32:01|Rows on #__foxcontact_sessions : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__foxcontact_sessions
+DEBUG   |140721 15:32:01|Done dumping #__foxcontact_sessions
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__foxcontact_sessions
+DEBUG   |140721 15:32:01|----- Finished operation 43 ------
+DEBUG   |140721 15:32:01|Rows on #__foxcontact_settings : 3
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__foxcontact_settings
+INFO    |140721 15:32:01|Beginning dump of #__foxcontact_settings
+DEBUG   |140721 15:32:01|Done dumping #__foxcontact_settings
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__foxcontact_settings
+DEBUG   |140721 15:32:01|----- Finished operation 44 ------
+DEBUG   |140721 15:32:01|Writing 131470 bytes to the dump file
+DEBUG   |140721 15:32:01|Rows on #__languages : 2
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__languages
+INFO    |140721 15:32:01|Beginning dump of #__languages
+DEBUG   |140721 15:32:01|Done dumping #__languages
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__languages
+DEBUG   |140721 15:32:01|----- Finished operation 45 ------
+DEBUG   |140721 15:32:01|Rows on #__menu : 29
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__menu
+INFO    |140721 15:32:01|Beginning dump of #__menu
+DEBUG   |140721 15:32:01|Done dumping #__menu
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__menu
+DEBUG   |140721 15:32:01|----- Finished operation 46 ------
+DEBUG   |140721 15:32:01|Rows on #__menu_types : 1
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__menu_types
+INFO    |140721 15:32:01|Beginning dump of #__menu_types
+DEBUG   |140721 15:32:01|Done dumping #__menu_types
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__menu_types
+DEBUG   |140721 15:32:01|----- Finished operation 47 ------
+DEBUG   |140721 15:32:01|Rows on #__messages : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__messages
+DEBUG   |140721 15:32:01|Done dumping #__messages
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__messages
+DEBUG   |140721 15:32:01|----- Finished operation 48 ------
+DEBUG   |140721 15:32:01|Rows on #__messages_cfg : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__messages_cfg
+DEBUG   |140721 15:32:01|Done dumping #__messages_cfg
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__messages_cfg
+DEBUG   |140721 15:32:01|----- Finished operation 49 ------
+DEBUG   |140721 15:32:01|Rows on #__modules : 21
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__modules
+INFO    |140721 15:32:01|Beginning dump of #__modules
+DEBUG   |140721 15:32:01|Done dumping #__modules
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__modules
+DEBUG   |140721 15:32:01|----- Finished operation 50 ------
+DEBUG   |140721 15:32:01|Rows on #__modules_menu : 19
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__modules_menu
+INFO    |140721 15:32:01|Beginning dump of #__modules_menu
+DEBUG   |140721 15:32:01|Done dumping #__modules_menu
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__modules_menu
+DEBUG   |140721 15:32:01|----- Finished operation 51 ------
+DEBUG   |140721 15:32:01|Rows on #__newsfeeds : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__newsfeeds
+DEBUG   |140721 15:32:01|Done dumping #__newsfeeds
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__newsfeeds
+DEBUG   |140721 15:32:01|----- Finished operation 52 ------
+DEBUG   |140721 15:32:01|Rows on #__overrider : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__overrider
+DEBUG   |140721 15:32:01|Done dumping #__overrider
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__overrider
+DEBUG   |140721 15:32:01|----- Finished operation 53 ------
+DEBUG   |140721 15:32:01|Rows on #__redirect_links : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__redirect_links
+DEBUG   |140721 15:32:01|Done dumping #__redirect_links
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__redirect_links
+DEBUG   |140721 15:32:01|----- Finished operation 54 ------
+DEBUG   |140721 15:32:01|Rows on #__schemas : 2
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__schemas
+INFO    |140721 15:32:01|Beginning dump of #__schemas
+DEBUG   |140721 15:32:01|Done dumping #__schemas
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__schemas
+DEBUG   |140721 15:32:01|----- Finished operation 55 ------
+INFO    |140721 15:32:01|Skipping dumping data of #__session
+DEBUG   |140721 15:32:01|Done dumping #__session
+DEBUG   |140721 15:32:01|----- Finished operation 56 ------
+DEBUG   |140721 15:32:01|Rows on #__template_styles : 6
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__template_styles
+INFO    |140721 15:32:01|Beginning dump of #__template_styles
+DEBUG   |140721 15:32:01|Done dumping #__template_styles
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__template_styles
+DEBUG   |140721 15:32:01|----- Finished operation 57 ------
+DEBUG   |140721 15:32:01|Rows on #__update_categories : 0
+DEBUG   |140721 15:32:01|Writing data dump preamble for #__update_categories
+DEBUG   |140721 15:32:01|Done dumping #__update_categories
+DEBUG   |140721 15:32:01|Writing data dump epilogue for #__update_categories
+DEBUG   |140721 15:32:01|----- Finished operation 58 ------
+DEBUG   |140721 15:32:02|Rows on #__update_sites : 5
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__update_sites
+INFO    |140721 15:32:02|Beginning dump of #__update_sites
+DEBUG   |140721 15:32:02|Done dumping #__update_sites
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__update_sites
+DEBUG   |140721 15:32:02|----- Finished operation 59 ------
+DEBUG   |140721 15:32:02|Rows on #__update_sites_extensions : 5
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__update_sites_extensions
+INFO    |140721 15:32:02|Beginning dump of #__update_sites_extensions
+DEBUG   |140721 15:32:02|Done dumping #__update_sites_extensions
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__update_sites_extensions
+DEBUG   |140721 15:32:02|----- Finished operation 60 ------
+DEBUG   |140721 15:32:02|Rows on #__updates : 63
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__updates
+INFO    |140721 15:32:02|Beginning dump of #__updates
+DEBUG   |140721 15:32:02|Done dumping #__updates
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__updates
+DEBUG   |140721 15:32:02|----- Finished operation 61 ------
+DEBUG   |140721 15:32:02|Rows on #__user_notes : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__user_notes
+DEBUG   |140721 15:32:02|Done dumping #__user_notes
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__user_notes
+DEBUG   |140721 15:32:02|----- Finished operation 62 ------
+DEBUG   |140721 15:32:02|Rows on #__user_profiles : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__user_profiles
+DEBUG   |140721 15:32:02|Done dumping #__user_profiles
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__user_profiles
+DEBUG   |140721 15:32:02|----- Finished operation 63 ------
+DEBUG   |140721 15:32:02|Rows on #__user_usergroup_map : 1
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__user_usergroup_map
+INFO    |140721 15:32:02|Beginning dump of #__user_usergroup_map
+DEBUG   |140721 15:32:02|Done dumping #__user_usergroup_map
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__user_usergroup_map
+DEBUG   |140721 15:32:02|----- Finished operation 64 ------
+DEBUG   |140721 15:32:02|Rows on #__usergroups : 8
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__usergroups
+INFO    |140721 15:32:02|Beginning dump of #__usergroups
+DEBUG   |140721 15:32:02|Done dumping #__usergroups
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__usergroups
+DEBUG   |140721 15:32:02|----- Finished operation 65 ------
+DEBUG   |140721 15:32:02|Rows on #__users : 1
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__users
+INFO    |140721 15:32:02|Beginning dump of #__users
+DEBUG   |140721 15:32:02|Done dumping #__users
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__users
+DEBUG   |140721 15:32:02|----- Finished operation 66 ------
+DEBUG   |140721 15:32:02|Rows on #__viewlevels : 3
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__viewlevels
+INFO    |140721 15:32:02|Beginning dump of #__viewlevels
+DEBUG   |140721 15:32:02|Done dumping #__viewlevels
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__viewlevels
+DEBUG   |140721 15:32:02|----- Finished operation 67 ------
+DEBUG   |140721 15:32:02|Rows on #__weblinks : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__weblinks
+DEBUG   |140721 15:32:02|Done dumping #__weblinks
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__weblinks
+DEBUG   |140721 15:32:02|----- Finished operation 68 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_application : 1
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_application
+INFO    |140721 15:32:02|Beginning dump of #__zoo_application
+DEBUG   |140721 15:32:02|Done dumping #__zoo_application
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_application
+DEBUG   |140721 15:32:02|----- Finished operation 69 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_category : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_category
+DEBUG   |140721 15:32:02|Done dumping #__zoo_category
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_category
+DEBUG   |140721 15:32:02|----- Finished operation 70 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_category_item : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_category_item
+DEBUG   |140721 15:32:02|Done dumping #__zoo_category_item
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_category_item
+DEBUG   |140721 15:32:02|----- Finished operation 71 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_comment : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_comment
+DEBUG   |140721 15:32:02|Done dumping #__zoo_comment
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_comment
+DEBUG   |140721 15:32:02|----- Finished operation 72 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_item : 5
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_item
+INFO    |140721 15:32:02|Beginning dump of #__zoo_item
+DEBUG   |140721 15:32:02|Done dumping #__zoo_item
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_item
+DEBUG   |140721 15:32:02|----- Finished operation 73 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_jbzoo_index : 92
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_jbzoo_index
+INFO    |140721 15:32:02|Beginning dump of #__zoo_jbzoo_index
+DEBUG   |140721 15:32:02|Done dumping #__zoo_jbzoo_index
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_jbzoo_index
+DEBUG   |140721 15:32:02|----- Finished operation 74 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_rating : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_rating
+DEBUG   |140721 15:32:02|Done dumping #__zoo_rating
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_rating
+DEBUG   |140721 15:32:02|----- Finished operation 75 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_search_index : 16
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_search_index
+INFO    |140721 15:32:02|Beginning dump of #__zoo_search_index
+DEBUG   |140721 15:32:02|Done dumping #__zoo_search_index
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_search_index
+DEBUG   |140721 15:32:02|----- Finished operation 76 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_submission : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_submission
+DEBUG   |140721 15:32:02|Done dumping #__zoo_submission
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_submission
+DEBUG   |140721 15:32:02|----- Finished operation 77 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_tag : 0
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_tag
+DEBUG   |140721 15:32:02|Done dumping #__zoo_tag
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_tag
+DEBUG   |140721 15:32:02|----- Finished operation 78 ------
+DEBUG   |140721 15:32:02|Rows on #__zoo_version : 1
+DEBUG   |140721 15:32:02|Writing data dump preamble for #__zoo_version
+INFO    |140721 15:32:02|Beginning dump of #__zoo_version
+DEBUG   |140721 15:32:02|Done dumping #__zoo_version
+DEBUG   |140721 15:32:02|Writing data dump epilogue for #__zoo_version
+INFO    |140721 15:32:02|End of database detected; flushing the dump buffers...
+DEBUG   |140721 15:32:02|Writing 91786 bytes to the dump file
+INFO    |140721 15:32:02|Database has been successfully dumped to SQL file(s)
+DEBUG   |140721 15:32:02|----- Finished operation 79 ------
+DEBUG   |140721 15:32:02|Adding any extra SQL statements imposed by the filters
+DEBUG   |140721 15:32:02|Closing SQL dump file.
+DEBUG   |140721 15:32:02|Moving the SQL dump to its final location
+DEBUG   |140721 15:32:02|Removing temporary file of final SQL dump
+DEBUG   |140721 15:32:02|-- Removing temporary file 77e23583.sql
+DEBUG   |140721 15:32:02|-- Windows hack: chowning 77e23583.sql
+DEBUG   |140721 15:32:02|AECoreDomainDb :: No more databases left to iterate
+DEBUG   |140721 15:32:02|----- Finished operation 80 ------
+DEBUG   |140721 15:32:02|AECoreDomainDb :: Skipping databases.ini
+DEBUG   |140721 15:32:02|----- Finished operation 81 ------
+DEBUG   |140721 15:32:02|Successful Smart algorithm on AECoreDomainDb
+DEBUG   |140721 15:32:02|Kettenrad :: Domain 'PackDB' has finished.
+DEBUG   |140721 15:32:02|====== Finished Step number 1 ======
+DEBUG   |140721 15:32:02|*** Engine steps batching: Break flag detected.
+DEBUG   |140721 15:32:02|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |140721 15:32:02|Sleeping for 437.75105476379 msec, using usleep()
+DEBUG   |140721 15:32:02|Saving Kettenrad instance backend
+DEBUG   |140721 15:32:02|Closing SQL dump file.
+DEBUG   |140721 15:32:04| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |140721 15:32:04|====== Starting Step number 2 ======
+DEBUG   |140721 15:32:04|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |140721 15:32:04|Finalization action queue: remove_temp_files, update_statistics, update_filesizes, run_post_processing, kickstart_post_processing, apply_quotas, apply_remote_quotas, mail_administrators, update_statistics
+DEBUG   |140721 15:32:04|----- Finished operation 1 ------
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method remove_temp_files
+DEBUG   |140721 15:32:04|Removing temporary files
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method update_statistics
+DEBUG   |140721 15:32:04|Updating statistics
+DEBUG   |140721 15:32:04|Removing any old records with site-localhost-20140721-123158.sql filename
+DEBUG   |140721 15:32:04|1 records found
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method update_filesizes
+DEBUG   |140721 15:32:04|Updating statistics with file sizes
+DEBUG   |140721 15:32:04|Total size of backup archive (in bytes): 223256
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method run_post_processing
+DEBUG   |140721 15:32:04|Loading post-processing engine object (none)
+INFO    |140721 15:32:04|Initializing post-processing engine
+DEBUG   |140721 15:32:04|1 files to process found
+INFO    |140721 15:32:04|Beginning post processing file <root>/administrator/components/com_akeeba/backup\site-localhost-20140721-123158.sql
+INFO    |140721 15:32:04|Finished post-processing file <root>/administrator/components/com_akeeba/backup\site-localhost-20140721-123158.sql
+DEBUG   |140721 15:32:04|Not removing processed file <root>/administrator/components/com_akeeba/backup\site-localhost-20140721-123158.sql
+INFO    |140721 15:32:04|Post-processing has finished for all files
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method kickstart_post_processing
+INFO    |140721 15:32:04|Getting ready to upload Kickstart
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method apply_quotas
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method apply_remote_quotas
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method mail_administrators
+DEBUG   |140721 15:32:04|AECoreDomainFinalization::_run() Running built-in method update_statistics
+DEBUG   |140721 15:32:04|Updating statistics
+DEBUG   |140721 15:32:04|Removing any old records with site-localhost-20140721-123158.sql filename
+DEBUG   |140721 15:32:04|1 records found
+DEBUG   |140721 15:32:04|----- Finished operation 2 ------
+DEBUG   |140721 15:32:04|----- Finished operation 3 ------
+DEBUG   |140721 15:32:04|Successful Smart algorithm on AECoreDomainFinalization
+DEBUG   |140721 15:32:04|Kettenrad :: Domain 'finale' has finished.
+DEBUG   |140721 15:32:04|====== Finished Step number 2 ======
+DEBUG   |140721 15:32:04|*** Engine steps batching: Break flag detected.
+DEBUG   |140721 15:32:04|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |140721 15:32:04|Sleeping for 1760.0219249725 msec, using usleep()
+DEBUG   |140721 15:32:06|Saving Kettenrad instance backend
+DEBUG   |140721 15:32:06|Closing SQL dump file.
+DEBUG   |140721 15:32:08| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |140721 15:32:08|====== Starting Step number 3 ======
+DEBUG   |140721 15:32:08|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |140721 15:32:08|Kettenrad :: No more domains to process
+DEBUG   |140721 15:32:08|*** Engine steps batching: Break flag detected.
+DEBUG   |140721 15:32:08|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |140721 15:32:08|Sleeping for 1922.6491451263 msec, using usleep()
+DEBUG   |140721 15:32:10|Saving Kettenrad instance backend
+DEBUG   |140721 15:32:10|Closing SQL dump file.
+DEBUG   |140721 15:32:12| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |140721 15:32:12|Kettenrad :: Just finished
+DEBUG   |140721 15:32:12|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |140721 15:32:12|Sleeping for 1923.9671230316 msec, using usleep()
+DEBUG   |140721 15:32:14|Will not save a finished Kettenrad instance
+DEBUG   |140721 15:32:14|Closing SQL dump file.

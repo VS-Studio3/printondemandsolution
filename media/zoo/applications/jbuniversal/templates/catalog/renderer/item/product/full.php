@@ -25,20 +25,6 @@ echo $this->renderPosition('rating', array(
 );
 
 ?>
-        <!--<position name="banner-title">banner-title</position>
-
-        <position name="banner-image">banner-image</position>
-		
-        <position name="text-above-tabs">text-above-tabs</position>
-		
-        <position name="text-tab1">text-tab1</position>
-        <position name="text-tab2">text-tab2</position>
-        <position name="text-tab3">text-tab3</position>
-        <position name="text-tab4">text-tab4</position>
-		
-        <position name="text-above-products">text-above-products</position>
-
-        <position name="reviews">reviews</position> -->
 
 	<?php if ($this->checkPosition('banner-image')) : ?>				
 	<div class="banner-item" style="background: url('<?php echo trim($this->renderPosition('banner-image')); ?>')
@@ -420,9 +406,17 @@ echo $this->renderPosition('rating', array(
 
 
                    
-					
+				<div id="reviews-list">	
                  <?php echo $this->renderPosition('reviews'); ?>
-				 
+				</div>
 
                 </div><!-- /.container -->
             </section>
+			
+			<script type="text/javascript">
+			var $j = jQuery.noConflict();
+			$j(document).ready(function(){
+				$j('#reviews-list .comments:eq(0), #reviews-list .comments:eq(1)').wrapAll('<div class="row"></div>');
+				$j('#reviews-list .comments:eq(2), #reviews-list .comments:eq(3)').wrapAll('<div class="row"></div>');
+			});
+		</script>
